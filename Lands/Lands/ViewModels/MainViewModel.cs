@@ -54,7 +54,7 @@
         {
             if (instance == null)
             {
-                return new MainViewModel();
+                instance = new MainViewModel();
             }
 
             return instance;
